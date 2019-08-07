@@ -1,0 +1,138 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+  direction: rtl;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+body {
+  background-color: #f8f8f8;
+}
+.header {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+/* Start Classes */
+.input {
+  background-color: #efefef;
+  color: #c4c4c4;
+  border-radius: 30px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.input-icon {
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  width: 20px;
+}
+.input.form-control:focus {
+  color: #c4c4c4;
+}
+.input::-webkit-input-placeholder {
+  /* Edge */
+  color: #c4c4c4;
+}
+
+.input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c4c4c4;
+}
+
+.input::placeholder {
+  color: #c4c4c4;
+}
+.buttons {
+  border-radius: 35px;
+  min-width: 60px;
+  border: none;
+  -webkit-box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.buttons-notifications {
+  position: relative;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  background-color: transparent;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+.buttons-notifications:hover {
+  -webkit-box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.notifications-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  background-color: #ff3f55;
+  height: 15px;
+  border-radius: 100%;
+}
+.user {
+  -webkit-box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.5);
+  height: 38px;
+  width: 38px;
+  min-width: 38px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.button-white {
+  background-color: #ffffff;
+  color: #c4c4c4;
+}
+.button-orange {
+  background-color: #ffaf35;
+  color: #ffffff;
+}
+.button-icon {
+  width: 22px;
+}
+.section-image {
+  background-image: url("./Icons/Ad Banners/Mask Group 11@2x.png");
+  width: 100%;
+  min-height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.12);
+}
+.card-image {
+  width: 100%;
+  height: 200px;
+}
+.card-text {
+  color: #555555;
+}
+.txt-orange-bold {
+  color: #ffaf35;
+}
+.text-blue {
+  color: #0097d0;
+}
+.c-blue {
+  color: #0097d0;
+}
+/* End Classes */
